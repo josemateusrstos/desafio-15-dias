@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    flex-direction:column;
+    justify-content: center;
+    background-color: #252525;
+    user-select: none;
+}
+
+
+div{
+    border: none;
+    width: 70%;
+    align-self: center;
+    color:#252525;
+    text-align: center;
+    margin: auto;
+    
+}
+
+
+.caixaPrincipal{
+    background-color:#cfcfcf;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    margin-top: 5%;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+h1{
+    font-weight: bold;
+    color: #cfcfcf;
+    text-align: center;
+}
+
+input{
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    height: 25px;   
+}
+
+.tituloTarefa,  .descricaoTarefa{
+    margin: 10px;
+    margin: auto;
+}
+
+label{
+    font-weight: bold;
+}
+
+textarea{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    height: 100px;
+    margin: auto;
+
+}
+
+.btn{
+    border: none;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: backgound-color 200ms, color 200ms;
+    margin: 10px auto;
+    background-color: #7d7d7d;
+}
+.btn:hover{
+    background-color: #252525;
+    color: #cfcfcf;
+    cursor: pointer;
+}
+
+#mensagem, #mensagem:hover{
+    display: none;
+    width: fit-content;
+    margin:auto;
+    font-weight: bold;
+    background-color: #252525;
+    color: #cfcfcf;
+    padding: 5px;
+    font-size: small;
+    cursor: default;
+}
+
+.Link{
+    width: fit-content;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 20px auto;
+    color: #cfcfcf;
+}
+
+#listaDeTarefasSalvas{
+    list-style-type:none;
+    color: #cfcfcf;
+    padding: 20px;;
+}
+
+li{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #cfcfcf;
+    margin: 20PX;
+}
+
+.TituloTarefa{
+    background-color:#252525;
+    color: #cfcfcf;
+    width: fit-content;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.DescricaoTarefa{
+    display: block;
+    margin: auto;
+    user-select: text;
+    border: 1px solid #252525;
+    border-radius: 10px;
+    color: #252525;
+    width: 80%;
+    height: fit-content;
+    padding: 5px;
+    padding-bottom: 20px;
+    text-align: left;
+    background-color: white;
+}
+
+.MenuEdicao{
+    width: 100%;
+}
+/* #252525 #cfcfcf #7d7d7d #545454 */
